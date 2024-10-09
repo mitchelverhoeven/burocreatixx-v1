@@ -221,7 +221,7 @@ export default function ContactForm() {
             <button
               type="submit"
               className="polygon-button w-[200px] mt-6 py-2 border-[#139a48] border-2 text-[#139a48] font-semibold rounded-lg 
-            hover:rounded-full hover:text-white hover:duration-300 max-[500px]:w-[170px]"
+             hover:text-white hover:duration-300 max-[500px]:w-[170px]"
             >
               Verzenden
             </button>

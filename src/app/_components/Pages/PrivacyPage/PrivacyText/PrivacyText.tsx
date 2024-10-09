@@ -19,7 +19,7 @@ export default function PrivacyText() {
         max-[400px]:px-[30px]"
           >
             <h1
-              className="w-2/3 mb-10 text-5xl mt-[150px] break-words font-bold
+              className="w-2/3 mb-10 text-5xl mt-[150px] break-words font-bold max-[768px]:mt-[80px]
            max-[600px]:w-full max-[400px]:text-4xl"
             >
               Privacyverklaring{" "}

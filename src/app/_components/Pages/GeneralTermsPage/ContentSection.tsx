@@ -19,15 +19,17 @@ export default function ContentSection() {
         max-[400px]:px-[30px]"
           >
             <h1
-              className="w-2/3 mb-10 text-5xl mt-[150px] break-words font-bold
+              className="w-2/3 mb-10 text-5xl mt-[150px] break-words font-bold max-[768px]:mt-[60px]
            max-[600px]:w-full max-[400px]:text-4xl"
             >
               Algemene Voorwaarden{" "}
             </h1>
             <br />
             <br />
-            <br />
-            <br />
+            <div className="max-[768px]:hidden">
+              <br />
+              <br />
+            </div>
             <div className="grid gap-y-6">
               <h2 className="text-2xl font-bold text-[#d23f27]">Definities</h2>
               <h3>

@@ -13,13 +13,13 @@ export default function HomePage() {
   return (
     <>
       <div
-        className="flex justify-center w-[1270px] mx-auto text-center items-center h-screen -mt-[100px]
-    max-[1440px]:w-[1000px] max-[1050px]:w-[800px] max-[850px]:w-full chakraPetch"
+        className="flex justify-center w-[1270px] mx-auto text-center items-center mt-[200px]
+    max-[1440px]:w-[1000px] max-[1050px]:w-[800px] max-[850px]:w-full"
       >
         <Header />
       </div>
 
-      <div className="-mt-[70px]">
+      <div className="-mt-[70px] max-[1050px]:">
         <Footer />
       </div>
     </>

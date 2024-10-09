@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <div className="flex justify-center chakraPetch">
+      <div className="flex justify-center">
         <ul
           className="flex items-center gap-2 max-[750px]:flex-col max-[1440px]:mx-auto
         max-[1450px]:gap-1 max-[1440px]:gap-2 max-[750px]:pb-[50px]"

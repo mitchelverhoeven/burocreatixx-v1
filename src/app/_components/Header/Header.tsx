@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import React from "react";
 import LogoSvg from "./LogoSvg/LogoSvg";
+// import Footer from "../Footer/Footer";
 
 export default function Header() {
   return (
-    <div className="chakraPetch">
+    <div className="mb-[500px]">
       {" "}
       <motion.div
         initial={{ opacity: 0 }}
@@ -31,6 +32,12 @@ export default function Header() {
               </button>
             </Link>
           </div>
+          {/* <div
+            className="content-end grid min-[1051px]:hidden max-[1051px]:mt-[200px]
+        max-[1051px]:pb-[50px] max-[751px]:pb-[20px]"
+          >
+            <Footer />
+          </div> */}
         </div>
       </motion.div>
     </div>

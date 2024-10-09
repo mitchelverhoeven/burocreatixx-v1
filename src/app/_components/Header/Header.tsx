@@ -6,7 +6,7 @@ import LogoSvg from "./LogoSvg/LogoSvg";
 
 export default function Header() {
   return (
-    <div>
+    <div className="chakraPetch">
       {" "}
       <motion.div
         initial={{ opacity: 0 }}
@@ -18,7 +18,7 @@ export default function Header() {
           <LogoSvg />
 
           <div className="grid gap-6">
-            <h1 className="font-medium px-[50px]">
+            <h1 className="font-medium px-[50px] chakraPetch">
               Een nieuw bedrijf dat in de tweede helft van 2025 officieel van
               start gaat.
             </h1>

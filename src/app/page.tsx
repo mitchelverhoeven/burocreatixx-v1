@@ -14,7 +14,7 @@ export default function HomePage() {
     <>
       <div
         className="flex justify-center w-[1270px] mx-auto text-center items-center h-screen -mt-[100px]
-    max-[1440px]:w-[1000px] max-[1050px]:w-[800px] max-[850px]:w-full"
+    max-[1440px]:w-[1000px] max-[1050px]:w-[800px] max-[850px]:w-full chakraPetch"
       >
         <Header />
       </div>

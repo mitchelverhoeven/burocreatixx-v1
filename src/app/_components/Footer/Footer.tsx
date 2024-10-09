@@ -9,8 +9,8 @@ export default function Footer() {
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
-          animate={{ y: 100 }}
-          transition={{ type: "spring", bounce: 0.6, duration: 3 }}
+          viewport={{ once: true }}
+          transition={{ duration: 3 }}
         >
           <ul
             className="flex items-center gap-2 max-[750px]:flex-col max-[1440px]:mx-auto

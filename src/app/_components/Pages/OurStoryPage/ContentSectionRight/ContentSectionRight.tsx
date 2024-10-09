@@ -30,7 +30,7 @@ export default function ContentSectionRight(): JSX.Element {
           viewBox="0 0 1080 1080"
           initial="hidden"
           animate="visible"
-          className="w-[400px] max-[450px]:w-[300px]" // Adjust size as needed
+          className="w-[400px] h-[400px] max-[450px]:w-[300px] max-[450px]:h-[300px]" // Adjust size as needed
         >
           <defs>
             <style>{`

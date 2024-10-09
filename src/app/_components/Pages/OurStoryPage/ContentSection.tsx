@@ -9,7 +9,7 @@ export default function ContentSection() {
     <div>
       <div
         className="grid grid-cols-2 w-full h-[400px] max-[1050px]:grid-cols-1
-      max-[1050px]:-mt-[200px]"
+      max-[1050px]:-mt-[200px] max-[425px]:-mt-[100px]"
       >
         <div className="max-[1050px]:order-2">
           <ContentSectionLeft />

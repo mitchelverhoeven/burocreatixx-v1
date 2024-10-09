@@ -18,7 +18,7 @@ export default function Footer() {
           <span className="max-[750px]:hidden">|</span>
           <li>
             <Link href="/">
-              <div className="hover:text-[#f37e79] duration-300">
+              <div className="hover:text-[#139a48] duration-300">
                 Website: Buro Creatixx
               </div>
             </Link>
@@ -26,7 +26,7 @@ export default function Footer() {
           <span className="max-[750px]:hidden">|</span>
           <li>
             <Link href="/privacy">
-              <div className="hover:text-[#d23f27] duration-300">
+              <div className="hover:text-[#139a48] duration-300">
                 Privacyverklaring
               </div>
             </Link>

@@ -4,13 +4,13 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        animate={{ y: 100 }}
-        transition={{ type: "spring", bounce: 0.6, duration: 3 }}
-      >
-        <div className="flex justify-center">
+      <div className="flex justify-center">
+        <motion.div
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          animate={{ y: 100 }}
+          transition={{ type: "spring", bounce: 0.6, duration: 3 }}
+        >
           <ul
             className="flex items-center gap-2 max-[750px]:flex-col max-[1440px]:mx-auto
         max-[1450px]:gap-1 max-[1440px]:gap-2 max-[750px]:pb-[50px]"
@@ -47,8 +47,8 @@ export default function Footer() {
               </Link>
             </li>
           </ul>
-        </div>
-      </motion.div>
+        </motion.div>
+      </div>
     </>
   );
 }

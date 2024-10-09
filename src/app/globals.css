@@ -3,25 +3,202 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #000000;
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Chakra Petch";
+  color: white;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+  font-family: "Chakra Petch";
+  src: url("/fonts/Chakra Petch Regular.woff2") format("woff2"),
+    url("/fonts/Chakra Petch Regular.woff") format("woff");
+  src: url("/fonts/Chakra Petch Bold.woff2") format("woff2"),
+    url("/fonts/Chakra Petch Bold.woff") format("woff");
+  src: url("/fonts/Chakra Petch SemiBold.woff2") format("woff2"),
+    url("/fonts/Chakra Petch SemiBold.woff") format("woff");
+  font-display: swap;
+}
+
+.cls-1 {
+  letter-spacing: 0em;
+}
+
+.cls-1,
+.cls-2,
+.cls-3,
+.cls-4 {
+  fill: #d23f27;
+}
+
+.cls-2,
+.cls-5 {
+  letter-spacing: -0.01em;
+}
+
+.cls-5,
+.cls-6 {
+  fill: #f37e79;
+}
+
+.cls-7 {
+  font-family: ChakraPetch-Bold, "Chakra Petch";
+  font-size: 11.83px;
+  font-weight: 700;
+}
+
+.cls-8 {
+  letter-spacing: 0em;
+}
+
+.cls-8,
+.cls-9,
+.cls-10,
+.cls-11 {
+  fill: #fff;
+}
+
+.cls-3 {
+  letter-spacing: 0em;
+}
+
+.cls-9 {
+  letter-spacing: -0.03em;
+}
+
+.cls-10 {
+  letter-spacing: 0em;
+}
+
+.cls-12 {
+  font-size: 21.93px;
+}
+
+.cls-12,
+.cls-13 {
+  fill: #139a48;
+}
+
+.cls-12,
+.cls-14 {
+  font-family: ChakraPetch-Medium, "Chakra Petch";
+  font-weight: 500;
+}
+
+.cls-13 {
+  letter-spacing: 0em;
+}
+
+.cls-15 {
+  fill: #c67f78;
+}
+
+.cls-14 {
+  font-size: 51.1px;
+}
+
+.cls-16 {
+  letter-spacing: -0.02em;
+}
+
+/* .cls-40 {
+  fill: #139a48;
+}
+
+.cls-50 {
+  fill: #fff;
+} */
+/* HamburgerMenu */
+
+ul.hamburger-menu {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+ul.hamburger-menu li {
+  will-change: transform;
+  list-style: none;
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 4px;
+  transform: translateY(-50%);
+  transition: 0.4s;
+}
+
+ul.hamburger-menu li:nth-of-type(1) {
+  top: 20%;
+  /* background: #139a48; */
+}
+
+ul.hamburger-menu li:nth-of-type(2) {
+  top: 80%;
+  /* background: #d23f27; */
+}
+
+ul.hamburger-menu li:nth-of-type(3),
+ul.hamburger-menu li:nth-of-type(4) {
+  width: 50%;
+  top: 50%;
+  /* background: #c67f78; */
+}
+
+ul.hamburger-menu li:nth-of-type(1),
+ul.hamburger-menu li:nth-of-type(2),
+ul.hamburger-menu li:nth-of-type(3) {
+  left: 0;
+}
+
+ul.hamburger-menu li:nth-of-type(4) {
+  right: 0;
+}
+
+ul.hamburger-menu.active li:nth-of-type(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  background: #d23f27;
+}
+
+ul.hamburger-menu.active li:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+  background: #d23f27;
+}
+
+ul.hamburger-menu.active li:nth-of-type(3) {
+  left: -50%;
+  opacity: 0;
+  background: #139a48;
+}
+
+ul.hamburger-menu.active li:nth-of-type(4) {
+  right: -50%;
+  opacity: 0;
+  background: #139a48;
+}
+
+.mobile-menu > a {
+  will-change: transform;
+  animation-duration: 0.2s;
+  animation-timing-function: ease-in;
+  animation-name: slidein;
+}
+
+.polygon-button {
+  clip-path: polygon(
+    95% 0%,
+    100% 20%,
+    100% 80%,
+    95% 100%,
+    5% 100%,
+    0% 80%,
+    0% 20%,
+    5% 0%
+  );
 }

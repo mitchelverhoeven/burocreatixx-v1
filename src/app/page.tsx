@@ -14,12 +14,12 @@ export default function HomePage() {
     <>
       <div
         className="flex justify-center w-[1270px] mx-auto text-center items-center mt-[200px]
-    max-[1440px]:w-[1000px] max-[1050px]:w-[800px] max-[850px]:w-full"
+    max-[1440px]:w-[1000px] max-[1050px]:w-[800px] max-[850px]:w-full max-[425px]:mt-[100px]"
       >
         <Header />
       </div>
 
-      <div className="-mt-[70px] max-[1050px]:">
+      <div className="-mt-[70px]">
         <Footer />
       </div>
     </>

@@ -7,7 +7,7 @@ import LogoSvg from "./LogoSvg/LogoSvg";
 
 export default function Header() {
   return (
-    <div className="mb-[500px]">
+    <div className="mb-[500px] max-[425px]:mb-[400px]">
       {" "}
       <motion.div
         initial={{ opacity: 0 }}
@@ -19,7 +19,7 @@ export default function Header() {
           <LogoSvg />
 
           <div className="grid gap-6">
-            <h1 className="font-medium px-[50px] chakraPetch">
+            <h1 className="font-medium px-[50px]">
               Een nieuw bedrijf dat in de tweede helft van 2025 officieel van
               start gaat.
             </h1>
@@ -32,12 +32,6 @@ export default function Header() {
               </button>
             </Link>
           </div>
-          {/* <div
-            className="content-end grid min-[1051px]:hidden max-[1051px]:mt-[200px]
-        max-[1051px]:pb-[50px] max-[751px]:pb-[20px]"
-          >
-            <Footer />
-          </div> */}
         </div>
       </motion.div>
     </div>

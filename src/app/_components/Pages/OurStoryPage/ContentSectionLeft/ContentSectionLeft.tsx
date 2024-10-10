@@ -33,7 +33,7 @@ export default function ContentSectionLeft() {
           <Link href="/contact" id="contact-navbar-meerinformatie">
             <button
               className="polygon-button mx-auto flex border-2 border-[#f37e79] px-8 py-2 text-[#f37e79] font-semibold
-                 hover:text-white hover:duration-300"
+                 hover:text-white hover:duration-300 max-[425px]:mx-0"
             >
               Contact
             </button>

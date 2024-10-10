@@ -9,8 +9,8 @@ export async function POST(req: NextRequest) {
     const { email, tel, fullname, subject, message } = body;
 
     await sendgrid.send({
-      to: "info@werkgever-gezocht.nl",
-      from: "info@werkgever-gezocht.nl",
+      to: "info@burocreatixx.nl",
+      from: "info@burocreatixx.nl",
       subject: subject,
       html: `<!DOCTYPE html>
       <html lang="nl">

@@ -37,7 +37,7 @@ export default function RootLayout({
           location="bottom"
           buttonText="Accepteren"
           cookieName="CookieName"
-          style={{ background: "white", color: "black" }}
+          style={{ background: "#1f1f1f", color: "white" }}
           buttonStyle={{
             color: "white",
             fontSize: "16px",

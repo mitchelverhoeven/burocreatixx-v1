@@ -12,7 +12,7 @@ export default function OurStoryPage() {
   return (
     <>
       <div
-        className="flex justify-center w-[1270px] mx-auto text-center items-center h-screen -mt-[100px]
+        className="flex justify-center w-[1270px] mx-auto text-center items-center mt-[200px]
     max-[1440px]:w-[1000px] max-[1050px]:w-[800px] max-[850px]:w-full"
       >
         <ContentSection />

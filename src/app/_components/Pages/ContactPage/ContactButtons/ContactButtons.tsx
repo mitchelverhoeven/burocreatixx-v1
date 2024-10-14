@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import ContactEmailButton from "../ContactEmailButton/ContactEmailButton";
 import ContactWhatsappButton from "../ContactWhatsappButton/ContactWhatsappButton";
+import ContactLocationButton from "../ContactLocationButton/ContactLocationButton";
 
 export default function ContactButtons() {
   return (
@@ -19,11 +20,12 @@ export default function ContactButtons() {
         max-[400px]:px-[30px]"
         >
           <div
-            className="grid grid-cols-2 gap-4 mb-[50px] font-bold text-white text-center
-          max-[700px]:grid-cols-1"
+            className="grid grid-cols-3 gap-4 mb-[50px] font-bold text-white text-center
+          max-[1100px]:grid-cols-1"
           >
             <ContactWhatsappButton />
             <ContactEmailButton />
+            <ContactLocationButton />
           </div>
         </div>
       </motion.div>

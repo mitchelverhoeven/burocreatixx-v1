@@ -6,7 +6,7 @@ import Footer from "../../Footer/Footer";
 
 export default function ContentSection() {
   return (
-    <div>
+    <div className="mb-[300px]">
       <div
         className="grid grid-cols-2 w-full h-[400px] max-[1050px]:grid-cols-1
       max-[1050px]:-mt-[200px] max-[425px]:-mt-[100px]"

@@ -8,9 +8,6 @@ import { useDisableScroll } from "./useDisableScroll/useDisableScroll";
 import ContactWhatsappButton from "../../Pages/ContactPage/ContactWhatsappButton/ContactWhatsappButton";
 import ContactEmailButton from "../../Pages/ContactPage/ContactEmailButton/ContactEmailButton";
 import ContactLocationButton from "../../Pages/ContactPage/ContactLocationButton/ContactLocationButton";
-// import WhatsappButtonBgOrange from "../Pages/ContactPage/ContactDetails/components/ContactWhatsappButton/WhatsappButtonBgOrange/WhatsappButtonBgOrange";
-// import EmailButtonBgOrange from "../Pages/ContactPage/ContactDetails/components/ContactEmailButton/EmailButtonBgOrange/EmailButtonBgOrange";
-// import GoogleMapsButtonBgOrange from "../Pages/ContactPage/ContactDetails/components/ContactGoogleMapsButton/GoogleMapsButtonBgOrange/GoogleMapsButtonBgOrange";
 
 export default function MobileMenu() {
   const [open, setOpen] = useState(false);

@@ -6,6 +6,7 @@ import StructuredData from "./_components/StructuredData/StructuredData";
 interface PageMetadata {
   title: string;
   description: string;
+  canonicalUrl: string;
 }
 
 // Metadata object met publicatie- en aanpassingsdata
@@ -13,6 +14,7 @@ export const metadata: PageMetadata = {
   title: "Buro Creatixx | Full Service Digital Agency in Zeeland.",
   description:
     "Buro Creatixx, full service digital agency in Zeeland. Met passie en creativiteit leveren wij high-end digitale oplossingen voor ambitieuze ondernemers.",
+  canonicalUrl: "https://www.burocreatixx.nl",
 };
 
 // MetaTags component
@@ -21,10 +23,9 @@ const MetaTags = ({ metadata }: { metadata: PageMetadata }) => {
     <Head>
       <title>{metadata.title}</title>
       <meta name="description" content={metadata.description} />
-      {/* Open Graph Tags */}
       <meta property="og:title" content={metadata.title} />
       <meta property="og:description" content={metadata.description} />
-      {/* Voeg andere relevante meta-tags toe hier */}
+      <link rel="canonical" href={metadata.canonicalUrl} />
     </Head>
   );
 };

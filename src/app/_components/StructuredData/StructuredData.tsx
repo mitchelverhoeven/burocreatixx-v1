@@ -1,3 +1,5 @@
+import Head from "next/head";
+
 export default function StructuredData() {
   const structuredData = [
     {
@@ -39,12 +41,38 @@ export default function StructuredData() {
     },
   ];
 
+  const pageMetadata = {
+    canonicalUrl: "https://www.burocreatixx.nl",
+    ogImage: "https://www.burocreatixx.nl/Omslagfoto-BuroCreatixx.jpg",
+  };
+
   return (
-    <script
-      type="application/ld+json"
-      dangerouslySetInnerHTML={{
-        __html: JSON.stringify(structuredData),
-      }}
-    ></script>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData),
+        }}
+      ></script>
+
+      <Head>
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href={pageMetadata.canonicalUrl} />
+
+        {/* Open Graph metadata voor Facebook, Instagram, en LinkedIn */}
+        <meta
+          property="og:title"
+          content="Buro Creatixx - Full Service Digital Agency"
+        />
+        <meta
+          property="og:description"
+          content="Wij bieden strategie, design, technologie en marketingoplossingen op maat vanuit Zeeland. Neem contact op voor hoogwaardige digitale ondersteuning!"
+        />
+        <meta property="og:image" content={pageMetadata.ogImage} />
+        <meta property="og:url" content="https://www.burocreatixx.nl" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Buro Creatixx" />
+      </Head>
+    </>
   );
 }

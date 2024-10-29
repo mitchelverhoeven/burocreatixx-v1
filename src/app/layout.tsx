@@ -7,6 +7,7 @@ import "./globals.css";
 import Link from "next/link";
 import CookieConsent from "react-cookie-consent";
 import Head from "next/head";
+import { usePathname } from "next/navigation";
 
 export default function RootLayout({
   children,
@@ -14,10 +15,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const baseUrl = "https://www.burocreatixx.nl";
+  const pathname = usePathname();
+  const canonicalUrl = `${baseUrl}${pathname}`;
   return (
     <html lang="nl">
       <Head>
-        <link rel="canonical" href={baseUrl} />
+        <link rel="canonical" href={canonicalUrl} />
       </Head>
       <body>
         <Link

@@ -3,16 +3,9 @@ import Header from "./_components/Header/Header";
 import Footer from "./_components/Footer/Footer";
 import StructuredData from "./_components/StructuredData/StructuredData";
 
-// Definieer de interfaces voor de metadata
-interface OpenGraphMetadata {
-  publishedTime?: string;
-  modifiedTime?: string;
-}
-
 interface PageMetadata {
   title: string;
   description: string;
-  openGraph?: OpenGraphMetadata;
 }
 
 // Metadata object met publicatie- en aanpassingsdata
@@ -20,10 +13,6 @@ export const metadata: PageMetadata = {
   title: "Buro Creatixx | Full Service Digital Agency in Zeeland.",
   description:
     "Buro Creatixx, full service digital agency in Zeeland. Met passie en creativiteit leveren wij high-end digitale oplossingen voor ambitieuze ondernemers.",
-  openGraph: {
-    publishedTime: "2024-10-9", // publicatiedatum
-    modifiedTime: "2024-10-27", // datum van de laatste aanpassing
-  },
 };
 
 // MetaTags component
@@ -35,14 +24,6 @@ const MetaTags = ({ metadata }: { metadata: PageMetadata }) => {
       {/* Open Graph Tags */}
       <meta property="og:title" content={metadata.title} />
       <meta property="og:description" content={metadata.description} />
-      <meta
-        property="og:published_time"
-        content={metadata.openGraph?.publishedTime}
-      />
-      <meta
-        property="og:modified_time"
-        content={metadata.openGraph?.modifiedTime}
-      />
       {/* Voeg andere relevante meta-tags toe hier */}
     </Head>
   );

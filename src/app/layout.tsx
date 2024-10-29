@@ -6,14 +6,19 @@ import NavBar from "./_components/NavBar/NavBar";
 import "./globals.css";
 import Link from "next/link";
 import CookieConsent from "react-cookie-consent";
+import Head from "next/head";
 
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const baseUrl = "https://www.burocreatixx.nl";
   return (
-    <html lang="en">
+    <html lang="nl">
+      <Head>
+        <link rel="canonical" href={baseUrl} />
+      </Head>
       <body>
         <Link
           href="https://db.onlinewebfonts.com/c/7a47ed05475430352e621c843953e9f9?family=Chakra+Petch+Bold"

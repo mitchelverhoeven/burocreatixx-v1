@@ -23,9 +23,26 @@ const MetaTags = ({ metadata }: { metadata: PageMetadata }) => {
     <Head>
       <title>{metadata.title}</title>
       <meta name="description" content={metadata.description} />
-      <meta property="og:title" content={metadata.title} />
-      <meta property="og:description" content={metadata.description} />
+      <meta name="robots" content="index, follow" />
       <link rel="canonical" href={metadata.canonicalUrl} />
+
+      {/* Open Graph metadata voor Facebook, Instagram, en LinkedIn */}
+      <meta
+        property="og:title"
+        content="Buro Creatixx - Full Service Digital Agency"
+      />
+      <meta
+        property="og:description"
+        content="Wij bieden strategie, design, technologie en marketingoplossingen op maat vanuit Zeeland. Neem contact op voor hoogwaardige digitale ondersteuning!"
+      />
+
+      <meta
+        property="og:image"
+        content="https://www.burocreatixx.nl/Omslagfoto-BuroCreatixx.jpg"
+      />
+      <meta property="og:url" content="https://www.burocreatixx.nl" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Buro Creatixx" />
     </Head>
   );
 };
@@ -35,6 +52,7 @@ export default function HomePage() {
   return (
     <>
       <MetaTags metadata={metadata} />
+
       <div
         className="flex justify-center w-[1270px] mx-auto text-center items-center mt-[200px]
         max-[1440px]:w-[1000px] max-[1050px]:w-[800px] max-[850px]:w-full max-[425px]:mt-[100px]"

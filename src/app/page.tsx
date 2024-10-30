@@ -18,7 +18,7 @@ export const metadata: ExtendedMetadata = {
   openGraph: {
     title: "Buro Creatixx | Full Service Digital Agency in Zeeland.",
     description:
-      "Buro Creatixx, full-service digital agency in Zeeland. Met passie en creativiteit leveren wij high-end digitale oplossingen voor ambitieuze ondernemers.",
+      "Met passie en creativiteit leveren wij high-end digitale oplossingen voor ambitieuze ondernemers.",
     url: "https://www.burocreatixx.nl/",
     siteName: "Buro Creatixx",
     images: [
@@ -30,7 +30,7 @@ export const metadata: ExtendedMetadata = {
       {
         url: "https://www.burocreatixx.nl/Omslagfoto-BuroCreatixx.jpg",
         height: 1600,
-        alt: "My custom alt",
+        alt: "Omslagfoto BuroCreatix",
       },
     ],
     locale: "nl_NL",

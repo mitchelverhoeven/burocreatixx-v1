@@ -1,6 +1,5 @@
 import Header from "./_components/Header/Header";
 import Footer from "./_components/Footer/Footer";
-// import { Metadata } from "next";
 
 import type { Metadata as BaseMetadata } from "next";
 

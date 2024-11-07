@@ -14,7 +14,7 @@ export default function ContentSectionLeft() {
           <h1 className="text-2xl font-bold pb-6">
             Buro Creatixx: Jouw Partner in Creatieve Digitale Oplossingen
           </h1>
-          <h2 className="pb-8">
+          <p className="pb-8">
             Buro Creatixx is een full-service digital agency in Zierikzee,
             gespecialiseerd in strategische digitale oplossingen, webdesign,
             technologische innovaties, en online marketing. Ons bedrijf, dat in
@@ -32,7 +32,7 @@ export default function ContentSectionLeft() {
             <br />
             Neem gerust contact met ons op voor een vrijblijvende afspraak om de
             mogelijkheden te verkennen.
-          </h2>
+          </p>
 
           <Link href="/contact" id="contact-navbar-meerinformatie">
             <button

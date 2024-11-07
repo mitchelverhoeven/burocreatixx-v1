@@ -29,7 +29,7 @@ export default function ContactDetails() {
             >
               Spar met ons over jouw digitale toekomst
             </h1>
-            <h2 className="w-[80%] max-[600px]:w-full">
+            <p className="w-[80%] max-[600px]:w-full">
               Bij Buro Creatixx draait alles om het samen creëren van digitale
               oplossingen. We zijn benieuwd naar jouw ideeën en kunnen niet
               wachten om die in de toekomst samen verder te ontwikkelen. Als
@@ -50,7 +50,7 @@ export default function ContactDetails() {
               Heb je zin om je plannen te delen? Bel ons voor een inspirerend
               gesprek of stuur een e-mail &ndash; we denken graag met je mee
               over online strategieën, SEO, en digitale transformatie.
-            </h2>
+            </p>
           </div>
         </motion.div>
       </div>

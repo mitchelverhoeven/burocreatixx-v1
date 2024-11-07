@@ -1,11 +1,13 @@
 "use client";
 
+import "./globals.css";
+
+import Link from "next/link";
 import { ToastContainer } from "react-toastify";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import NavBar from "./_components/NavBar/NavBar";
-import "./globals.css";
-import Link from "next/link";
 import CookieConsent from "react-cookie-consent";
+
+import NavBar from "./_components/NavBar/NavBar";
 import StructuredData from "./_components/StructuredData/StructuredData";
 
 const dateMetadata = {

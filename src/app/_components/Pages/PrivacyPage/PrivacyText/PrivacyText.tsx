@@ -24,23 +24,23 @@ export default function PrivacyText() {
             >
               Privacyverklaring{" "}
             </h1>
-            <h2 className="w-[80%] text-lg max-[600px]:w-full">
+            <p className="w-[80%] text-lg max-[600px]:w-full">
               Buro Creatixx, is verantwoordelijk voor de verwerking van
               persoonsgegevens zoals weergegeven in deze privacyverklaring. Deze
               privacyverklaring is opgesteld om inzicht te geven in hoe wij
               persoonsgegevens verzamelen, gebruiken, en beschermen, en om u te
               informeren over uw rechten met betrekking tot uw persoonlijke
               gegevens.
-            </h2>
+            </p>
             <br />
             <br />
             <br />
             <br />
             <div className="grid gap-y-6">
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Persoonsgegevens die wij verwerken{" "}
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx verwerkt uw persoonsgegevens omdat u gebruik maakt
                 van onze diensten en/of omdat u deze zelf aan ons verstrekt. De
                 volgende gegevens kunnen door ons worden verzameld:
@@ -62,11 +62,11 @@ export default function PrivacyText() {
                 <br />- Overige persoonsgegevens die u actief verstrekt,
                 bijvoorbeeld door een profiel aan te maken op onze website, in
                 correspondentie en telefonisch.
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Doel van de verwerking
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx verwerkt uw persoonsgegevens voor de volgende
                 doeleinden:
                 <br />
@@ -88,11 +88,11 @@ export default function PrivacyText() {
                 website te verbeteren
                 <br />- Het voldoen aan wettelijke verplichtingen, zoals
                 gegevens die nodig zijn voor onze belastingaangifte.
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Grondslagen voor verwerking
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx verwerkt persoonsgegevens alleen op basis van één
                 of meerdere van de volgende juridische grondslagen:
                 <br />
@@ -107,34 +107,34 @@ export default function PrivacyText() {
                 belastingwetgeving)
                 <br />- Gerechtvaardigd belang (zoals het verbeteren van onze
                 website en diensten).
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Geautomatiseerde besluitvorming
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx neemt geen besluiten op basis van geautomatiseerde
                 verwerkingen over zaken die (aanzienlijke) gevolgen kunnen
                 hebben voor personen. Het gaat hierbij om besluiten die worden
                 genomen door computerprogrammas of -systemen zonder dat daar een
                 mens aan te pas komt.
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Hoe lang we persoonsgegevens bewaren
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx bewaart uw persoonsgegevens niet langer dan strikt
                 nodig is om de doelen te realiseren waarvoor uw gegevens worden
                 verzameld. Wij hanteren de volgende bewaartermijnen:
-              </h4>
+              </p>
               - Persoonsgegevens voor facturering: 7 jaar (in overeenstemming
               met de wettelijke verplichting)
               <br />- Contactgegevens: totdat u aangeeft dat u deze wilt
               verwijderen, tenzij anders vereist op basis van wettelijke
               verplichtingen.
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Delen van persoonsgegevens met derden
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx verkoopt uw gegevens niet aan derden en verstrekt
                 deze uitsluitend indien dit nodig is voor de uitvoering van onze
                 overeenkomst met u of om te voldoen aan een wettelijke
@@ -142,11 +142,11 @@ export default function PrivacyText() {
                 opdracht, sluiten wij een verwerkersovereenkomst om te zorgen
                 voor eenzelfde niveau van beveiliging en vertrouwelijkheid van
                 uw gegevens.
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Cookies of vergelijkbare technieken die wij gebruiken
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx gebruikt functionele, analytische en tracking
                 cookies. Een cookie is een klein tekstbestand dat bij het eerste
                 bezoek aan deze website wordt opgeslagen op uw computer, tablet
@@ -158,11 +158,11 @@ export default function PrivacyText() {
                 <br />
                 Daarnaast plaatsen wij cookies die uw surfgedrag bijhouden zodat
                 we op maat gemaakte content en advertenties kunnen aanbieden.
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Gegevens inzien, aanpassen of verwijderen
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 U heeft het recht om uw persoonsgegevens in te zien, te
                 corrigeren of te verwijderen. Daarnaast heeft u het recht om uw
                 eventuele toestemming voor de gegevensverwerking in te trekken
@@ -177,31 +177,31 @@ export default function PrivacyText() {
                 gegevensoverdraging van uw persoonsgegevens of verzoek tot
                 intrekking van uw toestemming of bezwaar op de verwerking van uw
                 persoonsgegevens sturen naar info@burocreatixx.nl.
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Beveiliging van persoonsgegevens
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx neemt de bescherming van uw gegevens serieus en
                 neemt passende maatregelen om misbruik, verlies, onbevoegde
                 toegang, ongewenste openbaarmaking en ongeoorloofde wijziging
                 tegen te gaan. Als u de indruk heeft dat uw gegevens niet goed
                 beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan
                 contact op met ons via info@burocreatixx.nl.
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Wijzigingen in de privacyverklaring
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx behoudt zich het recht voor om wijzigingen aan te
                 brengen in deze privacyverklaring. Wij raden u daarom aan deze
                 verklaring regelmatig te raadplegen, zodat u van eventuele
                 wijzigingen op de hoogte bent.
-              </h4>
-              <h3 className="text-2xl font-bold text-[#d23f27]">
+              </p>
+              <h2 className="text-2xl font-bold text-[#d23f27]">
                 Contactgegevens:
-              </h3>
-              <h4>
+              </h2>
+              <p>
                 Buro Creatixx
                 <br />
                 Zevengetijstraat 14
@@ -215,7 +215,7 @@ export default function PrivacyText() {
                 <br />
                 Bij vragen of opmerkingen over ons privacybeleid kunt u contact
                 opnemen via bovenstaande contactgegevens.
-              </h4>
+              </p>
             </div>
           </div>
           <div className="mt-[100px] mb-[50px] max-[750px]:mb-[0px]">

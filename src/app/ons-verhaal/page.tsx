@@ -1,11 +1,42 @@
-import { Metadata } from "next";
 import ContentSection from "../_components/Pages/OurStoryPage/ContentSection";
 import Footer from "../_components/Footer/Footer";
 
-export const metadata: Metadata = {
+import type { Metadata as BaseMetadata } from "next";
+
+interface ExtendedMetadata extends BaseMetadata {
+  published?: string;
+  modified?: string;
+}
+export const metadata: ExtendedMetadata = {
   title: "Ons verhaal - Buro Creatixx",
   description:
-    "Buro Creatixx, full-service digital agency in Zeeland. Met passie en creativiteit leveren wij high-end digitale oplossingen voor ambitieuze ondernemers.",
+    "Ontdek Buro Creatixx: jouw partner in strategie, design, technologie en marketing. Officiële start in 2025. Neem nu contact op voor advies of samenwerking!",
+  alternates: {
+    canonical: "https://www.burocreatixx.nl/ons-verhaal",
+  },
+  openGraph: {
+    title: "Buro Creatixx | Full Service Digital Agency in Zeeland.",
+    description:
+      "Ontdek Buro Creatixx: jouw partner in strategie, design, technologie en marketing. Officiële start in 2025. Neem nu contact op voor advies of samenwerking!",
+    url: "https://www.burocreatixx.nl/ons-verhaal",
+    siteName: "Buro Creatixx",
+    images: [
+      {
+        url: "https://www.burocreatixx.nl/Omslagfoto-BuroCreatixx.jpg",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://www.burocreatixx.nl/Omslagfoto-BuroCreatixx.jpg",
+        height: 1600,
+        alt: "Omslagfoto BuroCreatix",
+      },
+    ],
+    locale: "nl_NL",
+    type: "website",
+  },
+  published: new Date("2024-10-9").toISOString(),
+  modified: new Date().toISOString(),
 };
 
 export default function OurStoryPage() {

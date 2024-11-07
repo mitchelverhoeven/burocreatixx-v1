@@ -19,9 +19,10 @@ export default function Header() {
           <LogoSvg />
 
           <div className="grid gap-6">
-            <h1 className="font-medium px-[50px]">
-              Een nieuw bedrijf dat in de tweede helft van 2025 officieel van
-              start gaat.
+            <h1 className="font-medium px-[50px] max-w-[650px]">
+              Een nieuw digital agency in Zierikzee. Vanaf de tweede helft van
+              2025 bieden wij creatieve digitale oplossingen, webdesign, online
+              marketing en strategieën voor ondernemers en startups.
             </h1>
             <Link href="/ons-verhaal" id="meerinformatie-navbar-desktop">
               <button

@@ -15,15 +15,19 @@ export default function ContentSectionLeft() {
             Buro Creatixx: Jouw Partner in Creatieve Digitale Oplossingen
           </h1>
           <h2 className="pb-8">
-            Buro Creatixx is een full-service digital agency, gespecialiseerd in
-            strategie, design, technologie en marketing. Ons nieuwe bedrijf zal
-            in de tweede helft van 2025 officieel van start gaan.
+            Buro Creatixx is een full-service digital agency in Zierikzee,
+            gespecialiseerd in strategische digitale oplossingen, webdesign,
+            technologische innovaties, en online marketing. Ons bedrijf, dat in
+            de tweede helft van 2025 officieel van start gaat, helpt ondernemers
+            en startups met op maat gemaakte digitale strategieën en creatieve
+            weboplossingen.
             <br />
             <br />
             Met een flinke dosis creativiteit en passie werken we momenteel hard
             aan de voorbereidingen. Daarom kunnen we nog niet direct voor je aan
-            de slag. Wel staan we open voor informatieverzoeken, advies,
-            samenwerkingen en het bespreken van toekomstige projecten.
+            de slag, maar we staan wel open voor informatieverzoeken, advies, en
+            samenwerkingen. We bespreken graag de digitale mogelijkheden voor
+            toekomstige websites en online campagnes.
             <br />
             <br />
             Neem gerust contact met ons op voor een vrijblijvende afspraak om de

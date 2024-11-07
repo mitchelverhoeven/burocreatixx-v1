@@ -30,23 +30,26 @@ export default function ContactDetails() {
               Spar met ons over jouw digitale toekomst
             </h1>
             <h2 className="w-[80%] max-[600px]:w-full">
-              Bij Buro Creatixx draait alles om het samen creëren van unieke
-              digitale oplossingen. We zijn benieuwd naar jouw ideeën en kunnen
-              niet wachten om die in de toekomst samen verder te ontwikkelen.
+              Bij Buro Creatixx draait alles om het samen creëren van digitale
+              oplossingen. We zijn benieuwd naar jouw ideeën en kunnen niet
+              wachten om die in de toekomst samen verder te ontwikkelen. Als
+              full-service digital agency bieden we expertise in webdesign,
+              online marketing, SEO-optimalisatie, en digitale strategieën.
               <br />
               <br />
               Hoewel we momenteel nog niet officieel geopend zijn, zijn we{" "}
               <span className="font-bold">
                 op werkdagen tussen 09:00 en 17:00 wel bereikbaar
               </span>{" "}
-              voor informatieverzoeken, advies, en het bespreken van
-              samenwerkingen en toekomstige projecten. Stuur ons een berichtje,
-              en we reageren{" "}
-              <span className="font-bold">altijd binnen één werkdag.</span>
+              voor informatieverzoeken, adviesgesprekken, en het bespreken van
+              samenwerkingen en toekomstige digitale projecten. Stuur ons een
+              berichtje, en we reageren
+              <span className="font-bold"> altijd binnen één werkdag.</span>
               <br />
               <br />
               Heb je zin om je plannen te delen? Bel ons voor een inspirerend
-              gesprek of stuur een e-mail &ndash; we denken graag met je mee.
+              gesprek of stuur een e-mail &ndash; we denken graag met je mee
+              over online strategieën, SEO, en digitale transformatie.
             </h2>
           </div>
         </motion.div>

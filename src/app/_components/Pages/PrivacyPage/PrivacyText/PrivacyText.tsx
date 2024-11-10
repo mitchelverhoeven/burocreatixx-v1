@@ -25,11 +25,11 @@ export default function PrivacyText() {
               Privacyverklaring{" "}
             </h1>
             <p className="w-[80%] text-lg max-[600px]:w-full">
-              Buro Creatixx, is verantwoordelijk voor de verwerking van
-              persoonsgegevens zoals weergegeven in deze privacyverklaring. Deze
-              privacyverklaring is opgesteld om inzicht te geven in hoe wij
-              persoonsgegevens verzamelen, gebruiken, en beschermen, en om u te
-              informeren over uw rechten met betrekking tot uw persoonlijke
+              Ik ben verantwoordelijk voor de verwerking van jouw
+              persoonsgegevens, zoals weergegeven in deze privacyverklaring.
+              Deze privacyverklaring is opgesteld om jou inzicht te geven in hoe
+              ik persoonsgegevens verzamel, gebruik, en bescherm, en om je te
+              informeren over jouw rechten met betrekking tot jouw persoonlijke
               gegevens.
             </p>
             <br />
@@ -38,12 +38,12 @@ export default function PrivacyText() {
             <br />
             <div className="grid gap-y-6">
               <h2 className="text-2xl font-bold text-[#d23f27]">
-                Persoonsgegevens die wij verwerken{" "}
+                Persoonsgegevens die ik verwerk{" "}
               </h2>
               <p>
-                Buro Creatixx verwerkt uw persoonsgegevens omdat u gebruik maakt
-                van onze diensten en/of omdat u deze zelf aan ons verstrekt. De
-                volgende gegevens kunnen door ons worden verzameld:
+                Ik verwerk jouw persoonsgegevens omdat je gebruik maakt van mijn
+                diensten en/of omdat je deze zelf aan mij verstrekt. De volgende
+                gegevens kunnen door mij worden verzameld:
                 <br />
                 <br />
                 - Voor- en achternaam
@@ -59,170 +59,184 @@ export default function PrivacyText() {
                 - IP-adres
                 <br />
                 - Bankrekeningnummer (bij facturering)
-                <br />- Overige persoonsgegevens die u actief verstrekt,
-                bijvoorbeeld door een profiel aan te maken op onze website, in
+                <br />- Overige persoonsgegevens die je actief verstrekt,
+                bijvoorbeeld door een profiel aan te maken op mijn website, in
                 correspondentie en telefonisch.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Doel van de verwerking
               </h2>
               <p>
-                Buro Creatixx verwerkt uw persoonsgegevens voor de volgende
-                doeleinden:
+                Ik verwerk jouw persoonsgegevens voor de volgende doeleinden:
                 <br />
                 <br />
                 - Het afhandelen van betalingen
                 <br />
-                - Het leveren van onze diensten, zoals webdesign, strategie,
-                marketing, en technologie oplossingen
+                - Het leveren van mijn diensten, zoals webdesign, strategie,
+                marketing, en technologie-oplossingen
                 <br />
-                - Het verzenden van onze nieuwsbrief en/of commerciële
+                - Het verzenden van mijn nieuwsbrief en/of commerciële
                 aanbiedingen
                 <br />
-                - Om telefonisch of per e-mail contact met u op te nemen indien
-                dit nodig is om onze dienstverlening uit te voeren
+                - Om telefonisch of per e-mail contact met je op te nemen indien
+                dit nodig is om mijn dienstverlening uit te voeren
                 <br />
-                - Het informeren over wijzigingen van onze diensten en producten
+                - Het informeren over wijzigingen van mijn diensten en producten
                 <br />
-                - Het analyseren van uw gedrag op de website om daarmee onze
+                - Het analyseren van jouw gedrag op de website om daarmee mijn
                 website te verbeteren
                 <br />- Het voldoen aan wettelijke verplichtingen, zoals
-                gegevens die nodig zijn voor onze belastingaangifte.
+                gegevens die nodig zijn voor mijn belastingaangifte.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Grondslagen voor verwerking
               </h2>
               <p>
-                Buro Creatixx verwerkt persoonsgegevens alleen op basis van één
-                of meerdere van de volgende juridische grondslagen:
+                Ik verwerk persoonsgegevens alleen op basis van één of meerdere
+                van de volgende juridische grondslagen:
                 <br />
                 <br />
-                - Toestemming die u ons hebt gegeven (bijvoorbeeld bij het
-                inschrijven voor onze nieuwsbrief)
+                - Toestemming die je mij hebt gegeven (bijvoorbeeld bij het
+                inschrijven voor mijn nieuwsbrief)
                 <br />
                 - Uitvoering van een overeenkomst (zoals bij het leveren van een
                 dienst)
                 <br />
                 - Wettelijke verplichtingen (bijvoorbeeld het voldoen aan de
                 belastingwetgeving)
-                <br />- Gerechtvaardigd belang (zoals het verbeteren van onze
+                <br />- Gerechtvaardigd belang (zoals het verbeteren van mijn
                 website en diensten).
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Geautomatiseerde besluitvorming
               </h2>
               <p>
-                Buro Creatixx neemt geen besluiten op basis van geautomatiseerde
+                Ik neem geen besluiten op basis van geautomatiseerde
                 verwerkingen over zaken die (aanzienlijke) gevolgen kunnen
-                hebben voor personen. Het gaat hierbij om besluiten die worden
-                genomen door computerprogrammas of -systemen zonder dat daar een
-                mens aan te pas komt.
+                hebben voor jou. Het gaat hierbij om besluiten die worden
+                genomen door computerprogramma&#x2019;s of -systemen zonder dat
+                daar een mens aan te pas komt.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
-                Hoe lang we persoonsgegevens bewaren
+                Hoe lang ik persoonsgegevens bewaar
               </h2>
               <p>
-                Buro Creatixx bewaart uw persoonsgegevens niet langer dan strikt
-                nodig is om de doelen te realiseren waarvoor uw gegevens worden
-                verzameld. Wij hanteren de volgende bewaartermijnen:
+                Ik bewaar jouw persoonsgegevens niet langer dan strikt nodig is
+                om de doelen te realiseren waarvoor je gegevens worden
+                verzameld. Ik hanteer de volgende bewaartermijnen:
               </p>
               - Persoonsgegevens voor facturering: 7 jaar (in overeenstemming
               met de wettelijke verplichting)
-              <br />- Contactgegevens: totdat u aangeeft dat u deze wilt
+              <br />- Contactgegevens: totdat je aangeeft dat je deze wilt
               verwijderen, tenzij anders vereist op basis van wettelijke
               verplichtingen.
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Delen van persoonsgegevens met derden
               </h2>
               <p>
-                Buro Creatixx verkoopt uw gegevens niet aan derden en verstrekt
-                deze uitsluitend indien dit nodig is voor de uitvoering van onze
-                overeenkomst met u of om te voldoen aan een wettelijke
-                verplichting. Met bedrijven die uw gegevens verwerken in onze
-                opdracht, sluiten wij een verwerkersovereenkomst om te zorgen
-                voor eenzelfde niveau van beveiliging en vertrouwelijkheid van
-                uw gegevens.
+                Ik verkoop jouw gegevens niet aan derden en verstrek deze
+                uitsluitend indien dit nodig is voor de uitvoering van mijn
+                overeenkomst met jou of om te voldoen aan een wettelijke
+                verplichting. Met bedrijven die jouw gegevens verwerken in mijn
+                opdracht, sluit ik een verwerkersovereenkomst om te zorgen voor
+                eenzelfde niveau van beveiliging en vertrouwelijkheid van jouw
+                gegevens.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
-                Cookies of vergelijkbare technieken die wij gebruiken
+                Cookies of vergelijkbare technieken die ik gebruik
               </h2>
               <p>
-                Buro Creatixx gebruikt functionele, analytische en tracking
-                cookies. Een cookie is een klein tekstbestand dat bij het eerste
-                bezoek aan deze website wordt opgeslagen op uw computer, tablet
-                of smartphone. Wij gebruiken cookies met een puur technische
+                Ik gebruik functionele, analytische en tracking cookies. Een
+                cookie is een klein tekstbestand dat bij je eerste bezoek aan
+                deze website wordt opgeslagen op jouw computer, tablet of
+                smartphone. Ik gebruik cookies met een puur technische
                 functionaliteit. Deze zorgen ervoor dat de website naar behoren
-                werkt en dat bijvoorbeeld uw voorkeursinstellingen worden
+                werkt en dat bijvoorbeeld jouw voorkeursinstellingen worden
                 onthouden.
                 <br />
                 <br />
-                Daarnaast plaatsen wij cookies die uw surfgedrag bijhouden zodat
-                we op maat gemaakte content en advertenties kunnen aanbieden.
+                Daarnaast maak ik gebruik van analytische en tracking tools,
+                waaronder:
+                <br />
+                <br />- <b>Facebook Pixel:</b> Hiermee analyseer ik jouw gedrag
+                op mijn website en kan ik gerichte advertenties tonen via
+                Facebook.
+                <br />- <b>Google Analytics:</b> Dit helpt mij om statistieken
+                te verzamelen over het gebruik van mijn website en deze te
+                optimaliseren.
+                <br />- <b>Google Tag Manager:</b> Hiermee beheer ik de
+                implementatie van scripts, waaronder tracking en analytische
+                tools.
+                <br />
+                <br />
+                Deze tools kunnen informatie verzamelen zoals jouw IP-adres,
+                locatie, surfgedrag en apparaat. Deze gegevens worden
+                geanonimiseerd en nooit gebruikt om jou direct te identificeren.
+                <br />
+                <br />
+                Bij je eerste bezoek aan mijn website heb ik jou geïnformeerd
+                over deze cookies en je toestemming gevraagd voor het gebruik
+                ervan. Je kunt je cookievoorkeuren altijd aanpassen via de
+                instellingen van je browser of mijn cookie-instellingen.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Gegevens inzien, aanpassen of verwijderen
               </h2>
               <p>
-                U heeft het recht om uw persoonsgegevens in te zien, te
-                corrigeren of te verwijderen. Daarnaast heeft u het recht om uw
+                Jij hebt het recht om jouw persoonsgegevens in te zien, te
+                corrigeren of te verwijderen. Daarnaast heb je het recht om jouw
                 eventuele toestemming voor de gegevensverwerking in te trekken
-                of bezwaar te maken tegen de verwerking van uw persoonsgegevens
-                door Buro Creatixx en heeft u het recht op
-                gegevensoverdraagbaarheid. Dat betekent dat u bij ons een
-                verzoek kunt indienen om de persoonsgegevens die wij van u
-                hebben in een computerbestand naar u of een andere, door u
-                genoemde organisatie, te sturen.
+                of bezwaar te maken tegen de verwerking van jouw
+                persoonsgegevens door mij en heb je het recht op
+                gegevensoverdraagbaarheid. Dat betekent dat je bij mij een
+                verzoek kunt indienen om de persoonsgegevens die ik van jou heb
+                in een computerbestand naar jou of een andere, door jou genoemde
+                organisatie, te sturen.
                 <br />
-                <br />U kunt een verzoek tot inzage, correctie, verwijdering,
-                gegevensoverdraging van uw persoonsgegevens of verzoek tot
-                intrekking van uw toestemming of bezwaar op de verwerking van uw
-                persoonsgegevens sturen naar info@burocreatixx.nl.
+                <br />
+                Je kunt een verzoek tot inzage, correctie, verwijdering,
+                gegevensoverdraging van jouw persoonsgegevens of verzoek tot
+                intrekking van jouw toestemming of bezwaar op de verwerking van
+                jouw persoonsgegevens sturen naar info@burocreatixx.nl.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Beveiliging van persoonsgegevens
               </h2>
               <p>
-                Buro Creatixx neemt de bescherming van uw gegevens serieus en
-                neemt passende maatregelen om misbruik, verlies, onbevoegde
-                toegang, ongewenste openbaarmaking en ongeoorloofde wijziging
-                tegen te gaan. Als u de indruk heeft dat uw gegevens niet goed
+                Ik neem de bescherming van jouw gegevens serieus en neem
+                passende maatregelen om misbruik, verlies, onbevoegde toegang,
+                ongewenste openbaarmaking en ongeoorloofde wijziging tegen te
+                gaan. Als je de indruk hebt dat jouw gegevens niet goed
                 beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan
-                contact op met ons via info@burocreatixx.nl.
+                contact op met mij via info@burocreatixx.nl.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Wijzigingen in de privacyverklaring
               </h2>
               <p>
-                Buro Creatixx behoudt zich het recht voor om wijzigingen aan te
-                brengen in deze privacyverklaring. Wij raden u daarom aan deze
-                verklaring regelmatig te raadplegen, zodat u van eventuele
-                wijzigingen op de hoogte bent.
+                Ik behoud me het recht voor om wijzigingen aan te brengen in
+                deze privacyverklaring. Ik raad je daarom aan deze verklaring
+                regelmatig te raadplegen, zodat je van eventuele wijzigingen op
+                de hoogte bent.
               </p>
-              <h2 className="text-2xl font-bold text-[#d23f27]">
-                Contactgegevens:
-              </h2>
+              <h2 className="text-2xl font-bold text-[#d23f27]">Contact</h2>
               <p>
-                Buro Creatixx
-                <br />
-                Zevengetijstraat 14
-                <br />
-                4301 EZ, Zierikzee
-                <br />
-                06 - 523 902 01
-                <br />
-                info@burocreatixx.nl
+                Als je vragen hebt over deze privacyverklaring of over de manier
+                waarop ik omga met jouw persoonsgegevens, neem dan gerust
+                contact met mij op via:
                 <br />
                 <br />
-                Bij vragen of opmerkingen over ons privacybeleid kunt u contact
-                opnemen via bovenstaande contactgegevens.
+                E-mailadres: info@burocreatixx.nl
+                <br />
+                Telefoonnummer: 06-12345678
+                <br />
+                Adres: Zierikzee, Zeeland, Nederland
               </p>
             </div>
           </div>
-          <div className="mt-[100px] mb-[50px] max-[750px]:mb-[0px]">
-            <Footer />
-          </div>
         </motion.div>
       </div>
+      <Footer />
     </div>
   );
 }

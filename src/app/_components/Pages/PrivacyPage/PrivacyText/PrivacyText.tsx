@@ -25,12 +25,12 @@ export default function PrivacyText() {
               Privacyverklaring{" "}
             </h1>
             <p className="w-[80%] text-lg max-[600px]:w-full">
-              Ik ben verantwoordelijk voor de verwerking van jouw
+              Wij zijn verantwoordelijk voor de verwerking van jouw
               persoonsgegevens, zoals weergegeven in deze privacyverklaring.
               Deze privacyverklaring is opgesteld om jou inzicht te geven in hoe
-              ik persoonsgegevens verzamel, gebruik, en bescherm, en om je te
-              informeren over jouw rechten met betrekking tot jouw persoonlijke
-              gegevens.
+              wij persoonsgegevens verzamelen, gebruiken, en beschermen, en om
+              je te informeren over jouw rechten met betrekking tot jouw
+              persoonlijke gegevens.
             </p>
             <br />
             <br />
@@ -38,12 +38,12 @@ export default function PrivacyText() {
             <br />
             <div className="grid gap-y-6">
               <h2 className="text-2xl font-bold text-[#d23f27]">
-                Persoonsgegevens die ik verwerk{" "}
+                Persoonsgegevens die wij verwerken{" "}
               </h2>
               <p>
-                Ik verwerk jouw persoonsgegevens omdat je gebruik maakt van mijn
-                diensten en/of omdat je deze zelf aan mij verstrekt. De volgende
-                gegevens kunnen door mij worden verzameld:
+                Wij verwerken jouw persoonsgegevens omdat je gebruik maakt van
+                onze diensten en/of omdat je deze zelf aan ons verstrekt. De
+                volgende gegevens kunnen door ons worden verzameld:
                 <br />
                 <br />
                 - Voor- en achternaam
@@ -60,70 +60,70 @@ export default function PrivacyText() {
                 <br />
                 - Bankrekeningnummer (bij facturering)
                 <br />- Overige persoonsgegevens die je actief verstrekt,
-                bijvoorbeeld door een profiel aan te maken op mijn website, in
+                bijvoorbeeld door een profiel aan te maken op onze website, in
                 correspondentie en telefonisch.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Doel van de verwerking
               </h2>
               <p>
-                Ik verwerk jouw persoonsgegevens voor de volgende doeleinden:
+                Wij verwerken jouw persoonsgegevens voor de volgende doeleinden:
                 <br />
                 <br />
                 - Het afhandelen van betalingen
                 <br />
-                - Het leveren van mijn diensten, zoals webdesign, strategie,
+                - Het leveren van onze diensten, zoals webdesign, strategie,
                 marketing, en technologie-oplossingen
                 <br />
-                - Het verzenden van mijn nieuwsbrief en/of commerciële
+                - Het verzenden van onze nieuwsbrief en/of commerciële
                 aanbiedingen
                 <br />
                 - Om telefonisch of per e-mail contact met je op te nemen indien
-                dit nodig is om mijn dienstverlening uit te voeren
+                dit nodig is om onze dienstverlening uit te voeren
                 <br />
-                - Het informeren over wijzigingen van mijn diensten en producten
+                - Het informeren over wijzigingen van onze diensten en producten
                 <br />
-                - Het analyseren van jouw gedrag op de website om daarmee mijn
+                - Het analyseren van jouw gedrag op de website om daarmee onze
                 website te verbeteren
                 <br />- Het voldoen aan wettelijke verplichtingen, zoals
-                gegevens die nodig zijn voor mijn belastingaangifte.
+                gegevens die nodig zijn voor onze belastingaangifte.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Grondslagen voor verwerking
               </h2>
               <p>
-                Ik verwerk persoonsgegevens alleen op basis van één of meerdere
-                van de volgende juridische grondslagen:
+                Wij verwerken persoonsgegevens alleen op basis van één of
+                meerdere van de volgende juridische grondslagen:
                 <br />
                 <br />
-                - Toestemming die je mij hebt gegeven (bijvoorbeeld bij het
-                inschrijven voor mijn nieuwsbrief)
+                - Toestemming die je ons hebt gegeven (bijvoorbeeld bij het
+                inschrijven voor onze nieuwsbrief)
                 <br />
                 - Uitvoering van een overeenkomst (zoals bij het leveren van een
                 dienst)
                 <br />
                 - Wettelijke verplichtingen (bijvoorbeeld het voldoen aan de
                 belastingwetgeving)
-                <br />- Gerechtvaardigd belang (zoals het verbeteren van mijn
+                <br />- Gerechtvaardigd belang (zoals het verbeteren van onze
                 website en diensten).
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Geautomatiseerde besluitvorming
               </h2>
               <p>
-                Ik neem geen besluiten op basis van geautomatiseerde
+                Wij nemen geen besluiten op basis van geautomatiseerde
                 verwerkingen over zaken die (aanzienlijke) gevolgen kunnen
                 hebben voor jou. Het gaat hierbij om besluiten die worden
-                genomen door computerprogramma&#x2019;s of -systemen zonder dat
-                daar een mens aan te pas komt.
+                genomen door computerprogramma’s of -systemen zonder dat daar
+                een mens aan te pas komt.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
-                Hoe lang ik persoonsgegevens bewaar
+                Hoe lang wij persoonsgegevens bewaren
               </h2>
               <p>
-                Ik bewaar jouw persoonsgegevens niet langer dan strikt nodig is
-                om de doelen te realiseren waarvoor je gegevens worden
-                verzameld. Ik hanteer de volgende bewaartermijnen:
+                Wij bewaren jouw persoonsgegevens niet langer dan strikt nodig
+                is om de doelen te realiseren waarvoor de gegevens worden
+                verzameld. Wij hanteren de volgende bewaartermijnen:
               </p>
               - Persoonsgegevens voor facturering: 7 jaar (in overeenstemming
               met de wettelijke verplichting)
@@ -134,37 +134,37 @@ export default function PrivacyText() {
                 Delen van persoonsgegevens met derden
               </h2>
               <p>
-                Ik verkoop jouw gegevens niet aan derden en verstrek deze
-                uitsluitend indien dit nodig is voor de uitvoering van mijn
+                Wij verkopen jouw gegevens niet aan derden en verstrekken deze
+                uitsluitend indien dit nodig is voor de uitvoering van onze
                 overeenkomst met jou of om te voldoen aan een wettelijke
-                verplichting. Met bedrijven die jouw gegevens verwerken in mijn
-                opdracht, sluit ik een verwerkersovereenkomst om te zorgen voor
-                eenzelfde niveau van beveiliging en vertrouwelijkheid van jouw
-                gegevens.
+                verplichting. Met bedrijven die jouw gegevens verwerken in onze
+                opdracht, sluiten wij een verwerkersovereenkomst om te zorgen
+                voor eenzelfde niveau van beveiliging en vertrouwelijkheid van
+                jouw gegevens.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
-                Cookies of vergelijkbare technieken die ik gebruik
+                Cookies of vergelijkbare technieken die wij gebruiken
               </h2>
               <p>
-                Ik gebruik functionele, analytische en tracking cookies. Een
+                Wij gebruiken functionele, analytische en tracking cookies. Een
                 cookie is een klein tekstbestand dat bij je eerste bezoek aan
                 deze website wordt opgeslagen op jouw computer, tablet of
-                smartphone. Ik gebruik cookies met een puur technische
+                smartphone. Wij gebruiken cookies met een puur technische
                 functionaliteit. Deze zorgen ervoor dat de website naar behoren
                 werkt en dat bijvoorbeeld jouw voorkeursinstellingen worden
                 onthouden.
                 <br />
                 <br />
-                Daarnaast maak ik gebruik van analytische en tracking tools,
+                Daarnaast maken wij gebruik van analytische en tracking tools,
                 waaronder:
                 <br />
-                <br />- <b>Facebook Pixel:</b> Hiermee analyseer ik jouw gedrag
-                op mijn website en kan ik gerichte advertenties tonen via
-                Facebook.
-                <br />- <b>Google Analytics:</b> Dit helpt mij om statistieken
-                te verzamelen over het gebruik van mijn website en deze te
+                <br />- <b>Facebook Pixel:</b> Hiermee analyseren wij jouw
+                gedrag op onze website en kunnen wij gerichte advertenties tonen
+                via Facebook.
+                <br />- <b>Google Analytics:</b> Dit helpt ons om statistieken
+                te verzamelen over het gebruik van onze website en deze te
                 optimaliseren.
-                <br />- <b>Google Tag Manager:</b> Hiermee beheer ik de
+                <br />- <b>Google Tag Manager:</b> Hiermee beheren wij de
                 implementatie van scripts, waaronder tracking en analytische
                 tools.
                 <br />
@@ -174,10 +174,10 @@ export default function PrivacyText() {
                 geanonimiseerd en nooit gebruikt om jou direct te identificeren.
                 <br />
                 <br />
-                Bij je eerste bezoek aan mijn website heb ik jou geïnformeerd
-                over deze cookies en je toestemming gevraagd voor het gebruik
-                ervan. Je kunt je cookievoorkeuren altijd aanpassen via de
-                instellingen van je browser of mijn cookie-instellingen.
+                Bij je eerste bezoek aan onze website hebben wij jou
+                geïnformeerd over deze cookies en je toestemming gevraagd voor
+                het gebruik ervan. Je kunt je cookievoorkeuren altijd aanpassen
+                via de instellingen van je browser of onze cookie-instellingen.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
                 Gegevens inzien, aanpassen of verwijderen
@@ -187,11 +187,11 @@ export default function PrivacyText() {
                 corrigeren of te verwijderen. Daarnaast heb je het recht om jouw
                 eventuele toestemming voor de gegevensverwerking in te trekken
                 of bezwaar te maken tegen de verwerking van jouw
-                persoonsgegevens door mij en heb je het recht op
-                gegevensoverdraagbaarheid. Dat betekent dat je bij mij een
-                verzoek kunt indienen om de persoonsgegevens die ik van jou heb
-                in een computerbestand naar jou of een andere, door jou genoemde
-                organisatie, te sturen.
+                persoonsgegevens door ons en heb je het recht op
+                gegevensoverdraagbaarheid. Dat betekent dat je bij ons een
+                verzoek kunt indienen om de persoonsgegevens die wij van jou
+                hebben in een computerbestand naar jou of een andere, door jou
+                genoemde organisatie, te sturen.
                 <br />
                 <br />
                 Je kunt een verzoek tot inzage, correctie, verwijdering,
@@ -203,34 +203,22 @@ export default function PrivacyText() {
                 Beveiliging van persoonsgegevens
               </h2>
               <p>
-                Ik neem de bescherming van jouw gegevens serieus en neem
+                Wij nemen de bescherming van jouw gegevens serieus en nemen
                 passende maatregelen om misbruik, verlies, onbevoegde toegang,
                 ongewenste openbaarmaking en ongeoorloofde wijziging tegen te
                 gaan. Als je de indruk hebt dat jouw gegevens niet goed
                 beveiligd zijn of er aanwijzingen zijn van misbruik, neem dan
-                contact op met mij via info@burocreatixx.nl.
+                contact op met ons via info@burocreatixx.nl.
               </p>
               <h2 className="text-2xl font-bold text-[#d23f27]">
-                Wijzigingen in de privacyverklaring
+                Wijzigingen in deze privacyverklaring
               </h2>
               <p>
-                Ik behoud me het recht voor om wijzigingen aan te brengen in
-                deze privacyverklaring. Ik raad je daarom aan deze verklaring
-                regelmatig te raadplegen, zodat je van eventuele wijzigingen op
-                de hoogte bent.
-              </p>
-              <h2 className="text-2xl font-bold text-[#d23f27]">Contact</h2>
-              <p>
-                Als je vragen hebt over deze privacyverklaring of over de manier
-                waarop ik omga met jouw persoonsgegevens, neem dan gerust
-                contact met mij op via:
-                <br />
-                <br />
-                E-mailadres: info@burocreatixx.nl
-                <br />
-                Telefoonnummer: 06-12345678
-                <br />
-                Adres: Zierikzee, Zeeland, Nederland
+                Wij behouden ons het recht voor om deze privacyverklaring op elk
+                moment te wijzigen. De meest recente versie wordt op onze
+                website gepubliceerd. Het is raadzaam om deze verklaring
+                regelmatig te raadplegen, zodat je altijd op de hoogte bent van
+                onze gegevensverwerking.
               </p>
             </div>
           </div>

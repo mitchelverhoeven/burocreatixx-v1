@@ -10,13 +10,6 @@ import CookieConsent from "react-cookie-consent";
 import NavBar from "./_components/NavBar/NavBar";
 import StructuredData from "./_components/StructuredData/StructuredData";
 
-const dateMetadata = {
-  published: new Date("2024-10-30").toISOString(),
-  modified: new Date().toISOString(),
-};
-
-export { dateMetadata };
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -42,14 +35,10 @@ export default function RootLayout({
             `,
           }}
         />
-        {/* <noscript>
-          <img
-            height="1"
-            width="1"
-            style={{ display: 'none' }}
-            src="https://www.facebook.com/tr?id=YOUR_PIXEL_ID&ev=PageView&noscript=1"
-          />
-        </noscript> */}
+        <meta
+          name="robots"
+          content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large"
+        />
       </head>
       <body>
         <Link
